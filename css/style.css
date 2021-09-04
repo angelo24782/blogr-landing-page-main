@@ -25,6 +25,7 @@ body {
 }
 
 .hero {
+  overflow: hidden;
   --padding-container: 0;
   height: 100vh;
   background-image: linear-gradient(
