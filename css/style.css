@@ -18,6 +18,9 @@
   --color-cta-light-red: hsl(356, 100%, 66%);
   --color-cta-very-light-red: hsl(355, 100%, 74%);
   --color-cta-very-dark-blue: hsl(208, 49%, 24%);
+  --color-very-dark-blue: hsl(208, 49%, 24%);
+  --color-very-dark-grayish-blue: hsl(207, 13%, 34%);
+  --color-very-dark-black-blue: hsl(240, 10%, 16%);
 }
 
 body {
@@ -103,4 +106,18 @@ body {
   left: -180px;
   height: 120%;
   z-index: -1;
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: var(--color-very-dark-blue);
+  text-align: center;
+}
+
+.designed_illustration {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../images/illustration-editor-mobile.svg);
 }
