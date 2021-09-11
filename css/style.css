@@ -125,6 +125,11 @@ body {
   background-image: url(../images/illustration-editor-mobile.svg);
 }
 
+.designed__illustration--right {
+  background-size: cover;
+  background-image: url(../images/illustration-laptop-mobile.svg);
+}
+
 .designed_paragraph {
   color: var(--color-very-dark-grayish-blue);
   line-height: 1.5;
@@ -136,6 +141,12 @@ body {
 
 .designed_about--margin {
   margin-bottom: 40px;
+}
+
+.designed__subtitle {
+  font-size: 1.9rem;
+  color: var(--color-cta-very-dark-blue);
+  text-align: center;
 }
 
 .infrastructure {
