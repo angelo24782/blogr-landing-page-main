@@ -183,3 +183,34 @@ body {
   margin: 0 auto;
   margin-top: 20px;
 }
+
+.footer__logo {
+  margin-bottom: 60px;
+}
+
+.footer {
+  background-color: var(--color-very-dark-black-blue);
+  text-align: center;
+  font-family: var(--font-ubuntu);
+  border-radius: 0 100px 0 0;
+}
+
+.footer__links {
+  margin-top: 60px;
+}
+
+.footer__links:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.footer__link {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: var(--color-grayish-blue);
+}
+
+.footer__link--main {
+  font-weight: 700;
+  color: #fff;
+}
