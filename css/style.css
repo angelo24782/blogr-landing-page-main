@@ -30,6 +30,10 @@ body {
   font-family: var(--font-overpass);
 }
 
+.none {
+  display: none;
+}
+
 .hero {
   overflow: hidden;
   --padding-container: 0;
@@ -213,4 +217,122 @@ body {
 .footer__link--main {
   font-weight: 700;
   color: #fff;
+}
+
+@media screen and (min-width: 550px) {
+  .none {
+    display: block;
+  }
+
+  .nav {
+    font-family: var(--font-ubuntu);
+  }
+
+  .nav__logo {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 40px;
+  }
+
+  .nav__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav__link {
+    list-style: none;
+    color: #fff;
+  }
+
+  .nav__link::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/icon-arrow-light.svg);
+  }
+
+  .nav__hamburger {
+    display: none;
+  }
+
+  .nav__buttons {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 10px;
+  }
+
+  .nav__button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 0px;
+  }
+
+  .nav__button--bold {
+    color: var(--color-cta-light-red);
+    background: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
+  }
+
+  .hero__title {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 2.5rem;
+  }
+
+  .designed_container {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .designed_illustration {
+    width: 50%;
+  }
+
+  .designed_text {
+    width: 45%;
+  }
+
+  .designed__subtitle {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .designed_paragraph {
+    text-align: left;
+  }
+
+  .infrastructure__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .infrastructure::before {
+    top: 20%;
+    bottom: 25%;
+  }
+
+  .infrastructure__paragraph {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .infrastructure__texts {
+    text-align: left;
+  }
 }
